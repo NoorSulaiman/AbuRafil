@@ -1,0 +1,31 @@
+/*/// Fonts Setup ///*/
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lora');
+
+*{
+    font-family: 'Lora', serif;
+}
+
+h1,h2,h3{
+font-family: 'Kaushan Script', cursive;
+}
+
+/*/// Fluid Elements ///*/
+
+img,iframe{
+    width:100%;
+    max-width: 100%;
+}
+
+/*/// Anchor  tag general styles ///*/
+
+a{
+    text-decoration: none;
+    color:#333;
+    outline: none;
+}
+
+
+a:active{
+    color: #333;
+}
