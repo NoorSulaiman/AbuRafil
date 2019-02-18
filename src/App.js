@@ -10,6 +10,7 @@ import Menu from './pages/Menu';
 import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 const App = ({ location }) => (
   <div>
@@ -20,6 +21,7 @@ const App = ({ location }) => (
     <Route location={location} path="/services" exact component={Services} />
     <Route location={location} path="/gallery" exact component={Gallery} />
     <Route location={location} path="/contact" exact component={Contact} />
+    <Footer />
   </div>
 );
 App.propTypes = {
