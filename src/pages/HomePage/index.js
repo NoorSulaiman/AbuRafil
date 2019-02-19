@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+
 import './styles.css';
+import Slider from '../../components/Slider';
 
 class HomePage extends Component {
-  state = {};
+  state = {
+    slides: require('./images.json'),
+  };
 
   render() {
-    return <h1>Home</h1>;
+    const { slides } = this.state;
+    return <Slider slides={slides} />;
   }
 }
 

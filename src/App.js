@@ -11,6 +11,7 @@ import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Footer from './Footer';
+import BackToTop from './Addons/BackToTop';
 
 const App = ({ location }) => (
   <div>
@@ -22,6 +23,7 @@ const App = ({ location }) => (
     <Route location={location} path="/gallery" exact component={Gallery} />
     <Route location={location} path="/contact" exact component={Contact} />
     <Footer />
+    <BackToTop />
   </div>
 );
 App.propTypes = {

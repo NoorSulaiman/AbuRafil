@@ -1,4 +1,4 @@
-.footer-content{
+#footer-content{
     padding: 6% 3%;
     background-color: #22202e;  
     display: flex;
@@ -109,4 +109,34 @@
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.copy-right{
+    background-color: #000;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.copy-right p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 20px;
+}
+
+.copy-right strong{
+    color: #fff;
+    font-weight: 700;
+}
+
+.copy-right a{
+    color: #cd9b33;
+}
+
+@media  (max-width:768px){
+    div#footer-content{
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: none;
+    }
 }

@@ -13,7 +13,7 @@ import Logo from '../components/Logo';
 
 const index = () => (
   <footer>
-    <div className="footer-content">
+    <div id="footer-content">
       <div className="site-info">
         <div id="footerLogo-container">
           <Logo />
@@ -91,6 +91,14 @@ const index = () => (
             </a>
           </li>
         </ul>
+      </div>
+    </div>
+    <div className="copy-right">
+      <div className="container">
+        <p>
+          © Copyright by <strong>AbuRafil</strong>. Design by
+          <a href="#"> d3 Studio.</a>
+        </p>
       </div>
     </div>
   </footer>
