@@ -42,11 +42,6 @@ class MobileNavigation extends React.Component {
               </Link>
             </li>
             <li>
-              <Link onClick={this.toggleHandler} to="/services">
-                Services
-              </Link>
-            </li>
-            <li>
               <Link onClick={this.toggleHandler} to="/gallery">
                 Gallery
               </Link>

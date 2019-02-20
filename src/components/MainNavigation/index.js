@@ -21,9 +21,6 @@ const MainNavigation = () => (
           <Logo />
         </div>
         <li>
-          <Link to="/services">Services</Link>
-        </li>
-        <li>
           <Link to="/gallery">Gallery</Link>
         </li>
         <li>
