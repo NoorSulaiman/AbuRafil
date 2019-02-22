@@ -8,7 +8,15 @@ const Slider = props => {
   const { slides } = props;
 
   return (
-    <Carousel showArrows stopOnHover dynamicHeight>
+    <Carousel
+      autoPlay
+      showArrows
+      infiniteLoop
+      stopOnHover
+      dynamicHeight
+      showThumbs={false}
+      showStatus={false}
+    >
       {slides.map(slide => (
         <div className="imgSlide">
           <img

@@ -1,0 +1,18 @@
+{
+    "images": [
+        {
+            "url": "./assets/sliderImages/slider-5.png"
+        },
+        {
+            "url": "./assets/sliderImages/slider-6.png"
+        },
+        {
+            "url": "./assets/sliderImages/signature.png"
+        }
+    ],
+    "text": [
+        {
+            "ceoQoute": "“It seems that every country that can get its hands on butter has its opinion of what butter cream frosting should be. Some are made with eggs and butter.”Sunshine - CEO Bakery"
+        }
+    ]
+}
