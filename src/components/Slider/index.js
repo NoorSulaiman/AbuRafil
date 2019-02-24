@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './styles.css';
 
 const Slider = props => {
@@ -19,10 +19,7 @@ const Slider = props => {
     >
       {slides.map(slide => (
         <div className="imgSlide">
-          <img
-            src={require('../../assets/sliderImages/slider-5.png')}
-            alt="bakery products"
-          />
+          <img src={slide.url} alt="bakery products" />
         </div>
       ))}
     </Carousel>

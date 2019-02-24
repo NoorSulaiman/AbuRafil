@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
 import 'normalize.css';
+import 'lightbox-react/style.css';
 import configureStore from './storeConfig';
 import * as serviceWorker from './serviceWorker';
 

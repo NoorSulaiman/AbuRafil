@@ -1,0 +1,46 @@
+.FProductsThumb{
+    flex-basis: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+.productImageContainer{
+    flex-basis: 47%;
+}
+.producInfo{
+    flex-basis: 47%;
+    padding-top:3%;
+    padding-bottom: 10%;
+    
+}
+
+.producInfo h4{
+    margin-top:1%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+.producInfo small{
+    text-transform: uppercase;
+    color: #4e3939;
+}
+
+
+/*/// Media Queries ///*/
+
+@media (max-width: 991px){
+.FProductsThumb{
+   display: block;  
+}
+.productImageContainer{
+    width:40%;
+    margin: 0 auto;
+}
+.producInfo{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+}

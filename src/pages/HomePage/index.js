@@ -6,6 +6,7 @@ import { fetchData } from '../../actions/dataActions';
 import './styles.css';
 import Slider from '../../components/Slider';
 import CeoQoute from '../../components/CeoQoute';
+import FeaturedProducts from '../../components/FeaturedProducts';
 
 class HomePage extends Component {
   // componentWillMount() {
@@ -13,15 +14,18 @@ class HomePage extends Component {
   // }
 
   render() {
-    const { images } = this.props;
+    const { SliderImages, FProducts } = this.props;
 
     return (
       <div>
         <section>
-          <Slider slides={images} />
+          <Slider slides={SliderImages} />
         </section>
         <section>
           <CeoQoute />
+        </section>
+        <section>
+          <FeaturedProducts FProducts={FProducts} />
         </section>
       </div>
     );
@@ -30,12 +34,13 @@ class HomePage extends Component {
 
 function mapStateToProps(state) {
   return {
-    images: state.Data.images,
-    qoute: state.Data.text,
+    SliderImages: state.Data.SliderImages,
+    FProducts: state.Data.FProducts,
   };
 }
 HomePage.propTypes = {
-  images: PropTypes.array.isRequired,
+  SliderImages: PropTypes.array.isRequired,
+  FProducts: PropTypes.array.isRequired,
 };
 
 export default connect(

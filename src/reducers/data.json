@@ -1,18 +1,56 @@
 {
-    "images": [
+    "SliderImages": [
         {
-            "url": "./assets/sliderImages/slider-5.png"
+            "url": "https://i.ibb.co/q1LzTwy/slider-6.png"
         },
         {
-            "url": "./assets/sliderImages/slider-6.png"
+            "url": "https://i.ibb.co/dmPLfvG/slider-5.png"
         },
         {
-            "url": "./assets/sliderImages/signature.png"
+            "url": "https://i.ibb.co/q1LzTwy/slider-6.png"
         }
     ],
     "text": [
         {
             "ceoQoute": "“It seems that every country that can get its hands on butter has its opinion of what butter cream frosting should be. Some are made with eggs and butter.”Sunshine - CEO Bakery"
+        }
+    ],
+    "FProducts": [
+        {
+            "url": "https://i.ibb.co/dpLHfQw/large-2.jpg",
+            "thumb": "https://i.ibb.co/hD6W1tJ/large-2.png",
+            "title": "Red sugar flower",
+            "desc": "our perfectly baked Red sugar flower with high quality butter"
+        },
+        {
+            "url": "https://i.ibb.co/dpLHfQw/large-2.jpg",
+            "thumb": "https://i.ibb.co/hD6W1tJ/large-2.png",
+            "title": "Red sugar flower",
+            "desc": "our perfectly baked Red sugar flower with high quality butter"
+        },
+        {
+            "url": "https://i.ibb.co/dpLHfQw/large-2.jpg",
+            "thumb": "https://i.ibb.co/hD6W1tJ/large-2.png",
+            "title": "Red sugar flower",
+            "desc": "our perfectly baked Red sugar flower with high quality butter"
+        },
+        {
+            "url": "https://i.ibb.co/dpLHfQw/large-2.jpg",
+            "thumb": "https://i.ibb.co/hD6W1tJ/large-2.png",
+            "title": "Red sugar flower",
+            "desc": "our perfectly baked Red sugar flower with high quality butter"
+        },
+        {
+            "url": "https://i.ibb.co/dpLHfQw/large-2.jpg",
+            "thumb": "https://i.ibb.co/hD6W1tJ/large-2.png",
+            "title": "Red sugar flower",
+            "desc": "our perfectly baked Red sugar flower with high quality butter"
+        },
+        {
+            "url": "https://i.ibb.co/dpLHfQw/large-2.jpg",
+            "thumb": "https://i.ibb.co/hD6W1tJ/large-2.png",
+            "title": "Red sugar flower",
+            "desc": "our perfectly baked Red sugar flower with high quality butter"
         }
     ]
 }
