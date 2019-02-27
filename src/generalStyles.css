@@ -16,7 +16,10 @@ img,iframe{
     width:100%;
     max-width: 100%;
 }
-
+p{
+    line-height: 1.6em;
+    color: #767676;
+}
 /*/// Anchor  tag general styles ///*/
 
 a{

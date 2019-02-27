@@ -1,6 +1,6 @@
-/* .carousel-slider{
-    max-height: 600px;
-} */
+.carousel-slider{
+    max-width: 1300px   ;
+}
  
  .imgSlide{
     position: relative;
@@ -10,3 +10,24 @@
 .carousel .slide{
     background-color: #fff;
 }
+#root > div > div > section:nth-child(1) > div > div > ul > li{
+    outline: none;
+}
+
+/*/// Media Queries ///*/
+
+@media (min-width: 320px){
+.carousel-slider {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 1.5%;
+}}
+@media (min-width: 768px){
+.carousel-slider {
+    width: 100%;
+    padding: 0 2%;
+}}
+@media (min-width: 1440px){
+.carousel-slider {
+    width: 1440px;
+}}

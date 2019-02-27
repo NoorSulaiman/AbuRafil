@@ -7,6 +7,7 @@ import './styles.css';
 import Slider from '../../components/Slider';
 import CeoQoute from '../../components/CeoQoute';
 import FeaturedProducts from '../../components/FeaturedProducts';
+import Facts from '../../components/Facts';
 
 class HomePage extends Component {
   // componentWillMount() {
@@ -26,6 +27,9 @@ class HomePage extends Component {
         </section>
         <section>
           <FeaturedProducts FProducts={FProducts} />
+        </section>
+        <section>
+          <Facts />
         </section>
       </div>
     );

@@ -9,6 +9,7 @@ import About from './pages/About';
 import Menu from './pages/Menu';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Services from './pages/Services';
 import Footer from './Footer';
 import BackToTop from './Addons/BackToTop';
 
@@ -20,6 +21,7 @@ const App = ({ location }) => (
     <Route location={location} path="/menu" exact component={Menu} />
     <Route location={location} path="/gallery" exact component={Gallery} />
     <Route location={location} path="/contact" exact component={Contact} />
+    <Route location={location} path="/services" exact component={Services} />
     <Footer />
     <BackToTop />
   </div>
