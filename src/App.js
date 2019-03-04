@@ -7,7 +7,7 @@ import Header from './Header';
 import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Menu from './pages/Menu';
-import Gallery from './pages/Gallery';
+import GalleryPage from './pages/Gallery';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Footer from './Footer';
@@ -19,7 +19,7 @@ const App = ({ location }) => (
     <Route location={location} path="/" exact component={HomePage} />
     <Route location={location} path="/about" exact component={About} />
     <Route location={location} path="/menu" exact component={Menu} />
-    <Route location={location} path="/gallery" exact component={Gallery} />
+    <Route location={location} path="/gallery" exact component={GalleryPage} />
     <Route location={location} path="/contact" exact component={Contact} />
     <Route location={location} path="/services" exact component={Services} />
     <Footer />
