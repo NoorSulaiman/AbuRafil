@@ -17,6 +17,7 @@ const ProductThumb = ({ product, open, pushUrl }) => (
     <div className="producInfo">
       <h4>{product.title}</h4>
       <small>{product.desc}</small>
+      <p className="priceDetails">{product.price}</p>
     </div>
   </div>
 );
@@ -26,4 +27,5 @@ ProductThumb.propTypes = {
   open: PropTypes.func.isRequired,
   pushUrl: PropTypes.func.isRequired,
 };
+
 export default ProductThumb;
