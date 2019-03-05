@@ -47,7 +47,7 @@ class Gallery extends Component {
   renderImageContent(src, index) {
     return (
       <div onClick={e => this.openModal(e, index)}>
-        <img src={src.url} key={src.url} />
+        <img src={src.thumb} key={src.thumb} />
       </div>
     );
   }
@@ -55,7 +55,8 @@ class Gallery extends Component {
   render() {
     const { IMAGES, currentIndex } = this.state;
     return (
-      <div className="container gallery-container">
+      <div className="gallery-container">
+        <h1>Our Gallery</h1>
         <div className="gallery-grid">
           {IMAGES.map(this.renderImageContent)}
         </div>

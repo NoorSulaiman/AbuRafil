@@ -1,13 +1,20 @@
 .gallery-container {
     padding: .9375rem 0;
+    background: linear-gradient(to right, #FFD194, #D1913C);
   }
-  
- 
+ .gallery-container h1{
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  font-weight:400;
+ }  
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 8px;
     width: 100%;
+    margin: 0 auto;
+    width: 80%;
     margin: 0 auto;
   }
   @media (min-width: 20em) {
@@ -27,13 +34,14 @@
   }
   .gallery-grid img {
     width: 98%;
-    border: 5px solid rgb(175, 175, 175);
+    border: 5px solid #fff;
   }
   
   .gallery-grid div {
     position: relative;
     cursor: pointer;
     margin: 1%;
+    background: url('../../assets/wooden.jpg')
   }
   .gallery-grid div:before, .gallery-grid div:after {
     transition: .3s opacity ease;

@@ -1,7 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class GalleryModal extends Component {
+class GalleryModal extends React.Component {
+  constructor() {
+    super();
+    this.handleKeyDown = this.handleKeyDown.bind(this);
+  }
+
   componentDidMount() {
     document.body.addEventListener('keydown', this.handleKeyDown);
   }
@@ -27,7 +32,6 @@ class GalleryModal extends Component {
       src,
     } = this.props;
     if (!src) {
-      console.log('whut');
       return null;
     }
     return (
