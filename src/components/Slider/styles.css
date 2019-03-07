@@ -1,5 +1,6 @@
-.carousel-slider{
-    max-width: 1300px   ;
+.carousel.carousel-slider{
+    max-width: 1300px;
+    margin: 0 auto;
 }
  
  .imgSlide{
@@ -14,11 +15,25 @@
     outline: none;
 }
 
+.carousel.carousel-slider .control-arrow:hover{
+    background: none;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: 32px solid #000;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 32px solid #000;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+}
+
+
 /*/// Media Queries ///*/
 
 @media (min-width: 320px){
 .carousel-slider {
-    margin: 0 auto;
     width: 100%;
     padding: 0 1.5%;
 }}

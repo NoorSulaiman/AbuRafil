@@ -15,7 +15,7 @@ const MainNavigation = () => (
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/menu">Menu</Link>
+          <Link to="/products">Menu</Link>
         </li>
         <div id="logoContainer">
           <Logo />

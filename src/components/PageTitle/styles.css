@@ -1,0 +1,43 @@
+.PageTitleContainer{
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    position: relative;
+    min-height: 200px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.PageTitleContainer h1{
+    padding-top: 4%;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.79;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    font-family: inherit;
+}
+
+.breadcrumb{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    list-style: none;
+}
+
+.breadcrumb li{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 0.5%;
+}
+
+.breadcrumb a{
+    font-size: 16px;
+    color: #000;
+}
+

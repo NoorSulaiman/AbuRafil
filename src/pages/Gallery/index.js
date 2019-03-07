@@ -3,12 +3,15 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import GalleryModal from './modal';
+import PageTitle from '../../components/PageTitle';
+import Background from '../../assets/pageTitleImages/about.jpg';
 import './styles.css';
 
 class Gallery extends Component {
   constructor(props) {
     super(props);
-    this.state = { currentIndex: null, IMAGES: this.props.Gimages };
+    const { Gimages } = this.props;
+    this.state = { currentIndex: null, IMAGES: Gimages };
     this.closeModal = this.closeModal.bind(this);
     this.findNext = this.findNext.bind(this);
     this.findPrev = this.findPrev.bind(this);
@@ -55,19 +58,21 @@ class Gallery extends Component {
   render() {
     const { IMAGES, currentIndex } = this.state;
     return (
-      <div className="gallery-container">
-        <h1>Our Gallery</h1>
-        <div className="gallery-grid">
-          {IMAGES.map(this.renderImageContent)}
+      <div>
+        <PageTitle title="Gallery" background={Background} />
+        <div className="gallery-container">
+          <div className="gallery-grid">
+            {IMAGES.map(this.renderImageContent)}
+          </div>
+          <GalleryModal
+            closeModal={this.closeModal}
+            findPrev={this.findPrev}
+            findNext={this.findNext}
+            hasPrev={currentIndex > 0}
+            hasNext={currentIndex + 1 < IMAGES.length}
+            src={IMAGES[currentIndex]}
+          />
         </div>
-        <GalleryModal
-          closeModal={this.closeModal}
-          findPrev={this.findPrev}
-          findNext={this.findNext}
-          hasPrev={currentIndex > 0}
-          hasNext={currentIndex + 1 < IMAGES.length}
-          src={IMAGES[currentIndex]}
-        />
       </div>
     );
   }
