@@ -28,7 +28,9 @@
     border-top: 16px solid transparent;
     border-bottom: 16px solid transparent;
 }
-
+.carousel .control-dots .dot{
+    background: #ccc;
+}
 
 /*/// Media Queries ///*/
 

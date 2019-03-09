@@ -182,5 +182,67 @@
                 }
             ]
         }
-    ]
+    ],
+    "menu": {
+        "category-1": [
+            {
+                "url": "https://i.ibb.co/LtD7Rkh/bagel1.png",
+                "thumb": "https://i.ibb.co/LtD7Rkh/bagel1.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            },
+            {
+                "url": "https://i.ibb.co/WFcFy4V/bagel2.png",
+                "thumb": "https://i.ibb.co/WFcFy4V/bagel2.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            },
+            {
+                "url": "https://i.ibb.co/2M044md/bagel3.png",
+                "thumb": "https://i.ibb.co/2M044md/bagel3.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            }
+        ],
+        "category-2": [
+            {
+                "url": "https://i.ibb.co/LtD7Rkh/bagel1.png",
+                "thumb": "https://i.ibb.co/LtD7Rkh/bagel1.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            },
+            {
+                "url": "https://i.ibb.co/WFcFy4V/bagel2.png",
+                "thumb": "https://i.ibb.co/WFcFy4V/bagel2.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            },
+            {
+                "url": "https://i.ibb.co/2M044md/bagel3.png",
+                "thumb": "https://i.ibb.co/2M044md/bagel3.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            }
+        ],
+        "category-3": [
+            {
+                "url": "https://i.ibb.co/LtD7Rkh/bagel1.png",
+                "thumb": "https://i.ibb.co/LtD7Rkh/bagel1.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            },
+            {
+                "url": "https://i.ibb.co/WFcFy4V/bagel2.png",
+                "thumb": "https://i.ibb.co/WFcFy4V/bagel2.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            },
+            {
+                "url": "https://i.ibb.co/2M044md/bagel3.png",
+                "thumb": "https://i.ibb.co/2M044md/bagel3.png",
+                "title": "Red sugar flower",
+                "caption": "our perfectly baked Red sugar flower with high quality butter"
+            }
+        ]
+    }
 }

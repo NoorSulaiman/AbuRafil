@@ -3,20 +3,36 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import './styles.css';
+import PageTitle from '../../components/PageTitle';
+import background from '../../assets/pageTitleImages/product.jpg';
+import CategoryList from '../../components/CategoryList';
 
-const Products = ({ advProducts }) => (
-  <div className="container productsContainer">
-    <h1>Our Products</h1>
+const Products = ({ adv, menu }) => (
+  // const tabs = [React.createRef(), React.createRef(), React.createRef()];
+
+  <div>
+    <PageTitle title="Our Menu" background={background} />
+    <div className="productsContainer">
+      <aside>
+        <CategoryList />
+      </aside>
+      <div className="menu">
+        <div id="category-1" className="category" />
+        <div id="category-2" className="category" />
+        <div id="category-3" className="category" />
+      </div>
+    </div>
   </div>
 );
-
 Products.propTypes = {
-  advProducts: PropTypes.array.isRequired,
+  adv: PropTypes.array.isRequired,
+  menu: PropTypes.object.isRequired,
 };
 
 function mapStateToProps(state) {
   return {
-    advProducts: state.Data.adv.productsPage,
+    adv: state.Data.adv.productsPage,
+    menu: state.Data.menu,
   };
 }
 
