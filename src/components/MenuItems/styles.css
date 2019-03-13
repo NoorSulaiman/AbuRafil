@@ -1,0 +1,25 @@
+.productHeader{
+    position: sticky;
+    top:0;
+    background: rgb(233, 233, 233);
+    z-index: 100;
+    margin:3.3%;
+}
+.productHeader h1{
+    padding: 2%;
+    
+}
+
+#menuItems {
+    border-bottom: 1px solid #ccc;
+    height: 1000px;
+    overflow: auto;
+}
+
+#menuItems .FProductsThumb{
+    display: block;
+    flex-basis: 22%;
+    justify-content: space-around;
+    text-align: center;
+}
+

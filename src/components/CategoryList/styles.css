@@ -1,0 +1,42 @@
+.categoryListContainer{
+    position: sticky;
+    top: 10%;
+}
+
+.categoryListContainer h3{
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    color: #333;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+    width:60%;  
+
+}
+
+.categoryListContainer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.categoryListContainer ul li{
+    margin-bottom: 1%;
+    font-size: 20px;
+    color: #313131;
+    margin-bottom: 5%;
+}
+
+.categoryListContainer ul li:hover{
+    cursor: default;
+    color: burlywood;
+}
+
+@media (max-width: 991px){
+    .categoryListContainer h3{
+        
+       width: 100%;
+    }
+}

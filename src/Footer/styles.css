@@ -133,7 +133,7 @@
     color: #cd9b33;
 }
 
-@media  (max-width:768px){
+@media  (max-width:991px){
     div#footer-content{
         display: block;
         flex-wrap: nowrap;

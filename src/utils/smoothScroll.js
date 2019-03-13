@@ -5,21 +5,20 @@ export const smoothScroll = {
     clearTimeout(this.timer);
   },
 
-  scrollTo(id, callback) {
+  scrollTo(tab, callback) {
     const settings = {
       duration: 1000,
       easing: {
-        outQuint (x, t, b, c, d) {
+        outQuint(x, t, b, c, d) {
           return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
         },
       },
     };
     let percentage;
     let startTime;
-    const node = document.getElementById(id);
-    const nodeTop = node.offsetTop;
-    const nodeHeight = node.offsetHeight;
-    const body = document.body;
+    const nodeTop = tab.offsetTop;
+    const nodeHeight = tab.offsetHeight;
+    const { body } = document;
     const html = document.documentElement;
     const height = Math.max(
       body.scrollHeight,

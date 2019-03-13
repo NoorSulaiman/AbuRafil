@@ -1,0 +1,30 @@
+.menuContainer{
+    display: grid;
+    grid-template-areas: "side content";
+    grid-template-columns: 1fr 4fr;
+    margin-top:2rem;
+}
+
+#menuPageAd{
+    display: flex;
+    justify-content: space-evenly;
+}
+#menuPageAd div{
+    flex-basis: 45%;
+}
+
+aside {
+    grid-area: side;
+    margin-left: 0.5rem;
+  }
+
+  @media (max-width: 991px){
+    .menuContainer {
+        display: block;
+    }
+    .categoryListContainer{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+}

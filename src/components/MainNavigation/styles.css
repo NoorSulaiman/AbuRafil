@@ -1,22 +1,22 @@
 #navigationContainer{
-    max-width: 1300px;
+    max-width: 90%;
 }
 #navigation{
 padding-top:2%;
 }
-
+#nav-list li{
+    margin: 4%;
+}
 #nav-list{
     list-style: none;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin:0 auto;
     padding: 0;
 }
 
-#nav-list li {
-    margin:2%;
-    padding: 2%;
-}
+
 #nav-list li a{
     display: inline-block;
     padding: 10px 0px;

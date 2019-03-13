@@ -5,21 +5,17 @@ import Lightbox from 'lightbox-react';
 import './styles.css';
 import ProductThumb from '../Templates/ProductThumb';
 
-const FeaturedProducts = ({ FProducts }) => {
+const MenuItems = ({ items, category }) => {
   const [isOpen, setToggle] = useState(false);
   const [targetUrl, pushUrl] = useState('');
   const open = () => setToggle(!isOpen);
   return (
-    <div className="productWrapper">
+    <div>
       <div className="productHeader">
-        <h1>Featured Products</h1>
-        <p>Fresh Every Day</p>
-        <div>
-          <img src={require('../../assets/productImages/floral.png')} alt="" />
-        </div>
+        <h1>{category}</h1>
       </div>
-      <div className="container products">
-        {FProducts.map(product => (
+      <div id="menuItems" className="container products">
+        {items.map(product => (
           <ProductThumb product={product} pushUrl={pushUrl} open={open} />
         ))}
         {isOpen && (
@@ -34,8 +30,9 @@ const FeaturedProducts = ({ FProducts }) => {
   );
 };
 
-FeaturedProducts.propTypes = {
-  FProducts: PropTypes.array.isRequired,
+MenuItems.propTypes = {
+  items: PropTypes.array.isRequired,
+  category: PropTypes.string.isRequired,
 };
 
-export default FeaturedProducts;
+export default MenuItems;
