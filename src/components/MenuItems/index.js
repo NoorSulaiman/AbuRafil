@@ -11,7 +11,7 @@ const MenuItems = ({ items, category }) => {
   const open = () => setToggle(!isOpen);
   return (
     <div>
-      <div className="productHeader">
+      <div className="menuProductHeader">
         <h1>{category}</h1>
       </div>
       <div id="menuItems" className="container products">

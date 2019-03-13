@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import './styles.css';
 import PageTitle from '../../components/PageTitle';
-import background from '../../assets/pageTitleImages/product.jpg';
+import MenuBackground from '../../assets/pageTitleImages/product.jpg';
 import CategoryList from '../../components/CategoryList';
 import AdSpace from '../../components/AdSpace';
 import MenuItems from '../../components/MenuItems';
@@ -17,7 +17,7 @@ const Menu = ({ adv, menu }) => {
   const tabs = [];
   return (
     <div>
-      <PageTitle title="Our Menu" background={background} />
+      <PageTitle title="Our Menu" background={MenuBackground} />
       <div className="menuContainer">
         <aside>
           <CategoryList tabs={tabs} />

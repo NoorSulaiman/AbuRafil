@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import GalleryModal from './modal';
 import PageTitle from '../../components/PageTitle';
-import Background from '../../assets/pageTitleImages/about.jpg';
+import GalleryBackground from '../../assets/pageTitleImages/about.jpg';
 import './styles.css';
 
 class Gallery extends Component {
@@ -59,7 +59,7 @@ class Gallery extends Component {
     const { IMAGES, currentIndex } = this.state;
     return (
       <div>
-        <PageTitle title="Gallery" background={Background} />
+        <PageTitle title="Gallery" background={GalleryBackground} />
         <div className="gallery-container">
           <div className="gallery-grid">
             {IMAGES.map(this.renderImageContent)}
